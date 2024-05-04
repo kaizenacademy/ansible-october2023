@@ -15,3 +15,13 @@
     name:
       - php
       - php-mysql
+
+#- name: Add repository 74
+#  yum_repository:
+#    name: remi-php74
+#    description: EPEL YUM repo
+#    baseurl: https://rpms.remirepo.net/enterprise/7/php74/$basearch/
+#    enabled: yes
+#    gpgcheck: yes
+#    gpgkey: https://rpms.remirepo.net/RPM-GPG-KEY-remi
+#  when: php_version == 74
